@@ -4,4 +4,4 @@ let numero = 20;
 
 let resultado = (numero % 5 == 0) ? "Múltiplo de 5" : "Não é múltiplo de 5";
 
-console.log(status);
+console.log(resultado);

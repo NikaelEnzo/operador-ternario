@@ -2,6 +2,6 @@
 
 let idade = -1;
 
-let status = (idade > 18) ? "Maior de idade" : (idade > 18) ? "Menor de idade" : "Invalido";
+let status = (idade >= 18) ? "Maior de idade" : (idade < 18) ? "Menor de idade" : "Invalido";
 
 console.log(status);
